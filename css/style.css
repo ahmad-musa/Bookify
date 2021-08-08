@@ -82,42 +82,28 @@ body {
 
 }
 
-.top_content .mid form {
-    position: relative;
-    height: 100%;
-
-}
-
-.top_content .mid input {
-    width: 100%;
-    /* border: 2px solid rgba(82, 82, 82, 0.24); */
-    border-radius: 25px;
-    padding: 5px 20px;
-    height: 100%;
-    font-size: 14px;
-    /* color: var(--black);
-    background: var(--color2); */
-    box-sizing: border-box;
-}
-
-/* .top_content .mid input:focus {
-    border: 2px solid var(--color2);
-    background: var(--white);
-} */
 
 .top_content .mid a {
     position: absolute;
-    right: 4%;
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%,-50%);
+    
     /* color: var(--black); */
     cursor: pointer;
 }
-
 /* 
+.top_content .mid .h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--white);
+} */
+
+
 .top_content .mid a:hover {
     color: var(--primary1);
-} */
+}
 
 .top_content .right {
     width: 40px;
