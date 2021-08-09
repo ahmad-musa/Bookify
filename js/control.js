@@ -37,7 +37,7 @@ nav_close2.addEventListener('click', function (e) {
 ///////////////       Result                      ////////////////////
 
 
-function khoj(name){
+function khoj(boi){
     
 imgbody = ' ';
 
@@ -45,7 +45,7 @@ for (let index = 1; index < 10; index++) {
     imgbody+=
     `
     <div class="img_holder">
-                                <img class= " img" src="./img/${name}/img${index}.jpg">
+                                <img class= " img" src="./img/${boi}/img${index}.jpg">
                             </div>
     `;
 
@@ -55,15 +55,3 @@ document.getElementById('gallery').innerHTML=imgbody;
 }
 
 
-
-
-
-
-
-
-
-
-function allReset() {
-    document.getElementById("form").reset();
-    document.getElementById("list").innerHTML = '';
-}
