@@ -37,15 +37,15 @@ nav_close2.addEventListener('click', function (e) {
 ///////////////       Result                      ////////////////////
 
 
-function bang(name){
+function khoj(name){
     
 imgbody = ' ';
 
-for (let index = 1; index <= 12; index++) {
+for (let index = 1; index < 10; index++) {
     imgbody+=
     `
     <div class="img_holder">
-                                <img class= " img" src="./img/${name}/img${index}.jpg" alt="book">
+                                <img class= " img" src="./img/${name}/img${index}.jpg">
                             </div>
     `;
 

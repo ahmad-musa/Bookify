@@ -108,6 +108,11 @@
     }
 
 
+    .gallery .img_holder .img{
+        height: 30vh;
+    }
+    
+
     /* width */
     ::-webkit-scrollbar {
         width: 5px;
